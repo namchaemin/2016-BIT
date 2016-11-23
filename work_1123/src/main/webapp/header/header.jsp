@@ -1,6 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
+<html>
+<head>
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="header.css">
+  
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="header.js"></script>
+
+</head>
+
+<body>
+    
 <div id="headerWrap">
             <header id="header">
                 <h1>
@@ -49,7 +63,7 @@
                                     <a href="#"> MessageBox </a>
                                     <hr/>
                                     <div class="msgList firstMsgList">
-                                        <img class="msgUserPic" src="images/pro.png" alt="msgUser"/>
+                                        <img class="msgUserPic" src="images/profile01.png" alt="msgUser"/>
                                         <!--   <p class="msgUserPic"></p> -->
                                         <span class="msgUserId"> PopEye00 </span>
                                         <span class="userMsg"> 안녕하세요. </span>
@@ -67,8 +81,9 @@
                     
                 </nav>
                 
-                
-
-
             </header>
         </div><!-- //headerWrap -->
+        
+        </body>
+</html>
+    
