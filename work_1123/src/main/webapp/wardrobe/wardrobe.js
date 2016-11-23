@@ -1,0 +1,6 @@
+$(function(){
+	gnb()
+})
+
+function gnb(){    
+}
