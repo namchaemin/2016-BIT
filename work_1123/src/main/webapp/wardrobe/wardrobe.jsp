@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="wardrobe.css">
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
-<script src="myWardrobe.js"></script>
+<script src="wardrobe.js"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
@@ -20,27 +20,56 @@
 
 <body>
 
-<div id="container">
+<div id="wardrobeContainer">
+  
   <div id="wardrobeUser">
-    <img class="wardrobeUserImg" src="images/user01.png" alt=""/>
-   </div><!-- wardrobeUser -->
-    <div class="wardrobeUserInfo">
-      <span class="userId"> UserId </span>
-      <ul class=""> 
-        <li class="">
-          <p> 옷장 </p>
-          <p> 2 개 </p>
+    <img class="wardrobeUserImg" src="images/user01.png" alt="" />
+  </div><!-- wardrobeUser -->
+  
+  <div class="wardrobeUserInfo">
+      <h4 class="userId"> UserId </h4>
+      <ul class="follow">
+        <li class="wardrobePosts"> 
+          <h5> POSTS </h5>
+          <p class="posts"> 10 </p>
         </li>
-        <li class="">
-          <p> 구독자수 </p>
-          <p> 17,834 명</p>
-        </li>
-        <li class="">
-        
+        <li class="wardrobeFollowers"> 
+            <h5> FOLLOWERS </h5>
+            <p class="followers"> 17,834 </p>
         </li>
       </ul>
   </div><!-- // wardrobeUserInfo -->
-</div><!-- //Container -->
+  
+  <ul class="postList">
+    <li>
+	  <div class="postBox">
+		  <div class="postGrid">
+		    <div class="wardrobeThumb"></div>
+		    <div class="wardrobeThumb"></div>
+		    <div class="wardrobeThumb"></div>
+		    <div class="wardrobeThumb"></div>
+		    <div class="wardrobeThumb"></div>
+		  </div> <!-- //postGrid -->
+		  <a href="#"> Wardrobe01 </a>
+	      <p>10 POSTS</p>
+	    </div> <!-- // postBox -->
+    </li>
+    <li>
+		<div class="postBox">
+		    <div class="postGrid">
+		      <div class="wardrobeThumb"></div>
+		      <div class="wardrobeThumb"></div>
+		      <div class="wardrobeThumb"></div>
+		      <div class="wardrobeThumb"></div>
+		      <div class="wardrobeThumb"></div>
+		    </div> <!-- //postGrid -->
+		    <a href="#"> Wardrobe02 </a>
+		    <p>1 POSTS</p>
+		  </div> <!-- // postBox -->
+      </li>
+   </ul>
+</div> <!-- //wardrobeContainer -->
+
 
 </body>
 </html>
