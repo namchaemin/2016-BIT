@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+
+#wardrobeContainer {
+	width:85%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#wardrobeUser {
+	float: left;
+	margin-left: 10px;
+	width: 150px;
+	height: 150px;
+	border-radius:50%;
+	overflow: hidden;
+}
+.wardrobeUserImg {
+	width: 100%;
+	margin:auto;
+}
+
+.wardrobeUserInfo {
+	float:left;
+	margin-top: 26px;
+	margin-left: 40px;
+	padding-bottom: 42px;
+}
+
+h4.userId {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.follow {
+	text-align: left;
+	margin-top: 21px;
+}
+
+.follow li {
+	float: left;
+	margin-right: 48px;
+}
+
+.follow li h5 {
+	font-size: 10px;
+	color: #ccc;
+	margin-bottom: 14px;
+}
+
+.follow li p {
+	font-size: 19px;
+	font-weight: 800;
+}
+
+.wardrobeSetting>ul {
+	float: right;
+	margin-top: 64px;
+}
+
+.wardrobeSetting>ul>li> a {;
+	display: block;
+	border-radius:5px;;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 11px;
+	font-family: "nanumB";
+	border: 1px solid #555;
+	color: #555;
+	margin: 10px;
+}
+
+ul.postList {
+	clear:both;
+	width: 100%;
+	margin: auto;
+	border-top: 1px solid #eee;
+}
+
+ul.postList>li {
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 17px;
+}
+
+.postList>li:FIRST-CHILD .wardrobeThumb:FIRST-CHILD {
+	background: url(images/thumb01.jpg) center;
+	background-size: 120%;
+}
+
+.postList>li:FIRST-CHILD .wardrobeThumb:nth-child(2) {
+	background: url(images/thumb02.jpg) center;
+	background-size: 120%;
+}
+.postList>li:FIRST-CHILD .wardrobeThumb:nth-child(3) {
+	background: url(images/thumb03.jpg) center;
+	background-size: 120%;
+}
+.postList>li:FIRST-CHILD .wardrobeThumb:nth-child(4) {
+	background: url(images/thumb04.jpg) center;
+	background-size: 120%;
+}
+.postList>li:FIRST-CHILD .wardrobeThumb:nth-child(5) {
+	background: url(images/thumb04.jpg) center;
+	background-size: 120%;
+}
+.postList>li:FIRST-CHILD .wardrobeThumb:nth-child(4) {
+	background: url(images/thumb04.jpg) center;
+	background-size: 120%;
+}
+.postList>li:FIRST-CHILD .wardrobeThumb:nth-child(5) {
+    background: url(images/thumb05.jpg) center;
+    background-size: 120%;
+}
+
+.postList>li:FIRST-CHILD .wardrobeThumb:last-child {
+    background: url(images/thumb06.jpg) center;
+    background-size: 120%;
+}
+
+.postBox {
+    clear: both;
+    padding-top: 3px;
+    width: 335px;
+    height: 260px;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+
+.postGrid {
+	background: #eee;
+	clear: both;
+	margin:auto;
+	width: 330px;
+	height: 200px;
+	margin-bottom: 23px;
+	border-radius: 10px;
+	overflow:hidden;
+}
+
+.wardrobeThumb {
+	margin-bottom: 3px;
+	width: 107.7px;
+	display: inline-block;
+	vertical-align: top;
+	background: #ddd;
+}
+
+.wardrobeThumb:first-child {
+	height: 120px;
+}
+.wardrobeThumb:nth-child(2) {
+	height: 65px;
+}
+
+.wardrobeThumb:nth-child(3) {
+	height: 150px;
+}
+
+.wardrobeThumb:nth-child(4) {
+	height: 80px;
+	margin-top:  -30px;
+}
+
+.wardrobeThumb:nth-child(5) {
+    height: 135px;
+    margin-top: -85px;
+}
+.wardrobeThumb:last-child {
+    height: 50px;
+}
+
+.postBox>a {
+	float:left;
+	font-size: 12px;
+	text-shadow: 1px 1px #fff;
+	font-family: "nanumEB";
+	margin-left: 10px;
+}
+
+.postBox>p {
+	float:rigth;
+	font-size: 10px;
+    text-shadow: 1px 1px #fff;	
+	color: #999;
+	text-align: right;
+	margin-right: 10px;
+}
